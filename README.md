@@ -42,7 +42,7 @@ openclaw plugins install clawhub:@lowwattlabs/frisk
 
 - **GitHub**: https://github.com/lowwattlabs/frisk
 - **npm**: https://www.npmjs.com/package/@lowwattlabs/frisk
-- **ClawHub**: https://clawhub.ai/lowwattlabs/frisk
+- **ClawHub**: https://clawhub.ai/lowwattlabs/frisk-audit
 
 ## License
 
