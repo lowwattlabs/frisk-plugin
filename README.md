@@ -6,7 +6,7 @@ Pre-install security audit and vulnerability scanner for ClawHub skills.
 
 ```bash
 npm i -g @lowwattlabs/frisk
-openclaw plugins install clawhub:@lowwattlabs/frisk
+openclaw plugins install clawhub:@lowwattlabs/frisk-audit
 ```
 
 ## Tools
