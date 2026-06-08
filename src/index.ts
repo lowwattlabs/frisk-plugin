@@ -47,8 +47,7 @@ async function runFrisk(
 export default defineToolPlugin({
   id: "frisk",
   name: "Frisk",
-  description:
-    "Pre-install security audit and vulnerability scanner for ClawHub skills. 9 threat intel sources, 7 checks including malware, dependencies, and credential leaks.",
+  description: "Pre-install security audit and vulnerability scanner for ClawHub skills. 9 threat intel sources, 7 checks. Network operations blocked by default — require allowExternal: true.",
   configSchema: Type.Object({
     binaryPath: Type.Optional(Type.String({
       description: "Absolute path to the frisk binary. Defaults to /usr/local/bin/frisk.",
