@@ -1,0 +1,27 @@
+{
+  "id": "frisk",
+  "name": "Frisk",
+  "description": "Pre-install security audit and vulnerability scanner for ClawHub skills — 9 threat intel sources, 7 autonomous checks including malware scanning, dependency vulnerabilities, and credential leak detection.",
+  "version": "3.0.3",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "binaryPath": {
+        "type": "string",
+        "description": "Absolute path to the frisk binary. Defaults to /usr/local/bin/frisk (not PATH-resolved, to prevent hijacking)."
+      },
+      "allowExternal": {
+        "type": "boolean",
+        "description": "Allow network operations: threat intel sync and remote repo cloning. Default: false. Enable only if you trust the agent to contact external services."
+      }
+    }
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "frisk"
+    ]
+  }
+}

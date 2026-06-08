@@ -1,0 +1,46 @@
+{
+  "name": "@lowwattlabs/frisk",
+  "version": "3.0.3",
+  "description": "Pre-install security audit and vulnerability scanner for ClawHub skills — 9 threat intel sources, 7 checks.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "files": [
+    "dist",
+    "openclaw.plugin.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "openclaw": "^2026.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lowwattlabs/frisk.git"
+  },
+  "homepage": "https://github.com/lowwattlabs/frisk",
+  "bugs": {
+    "url": "https://github.com/lowwattlabs/frisk/issues"
+  },
+  "license": "MIT-0",
+  "openclaw": {
+    "extensions": [
+      "./dist/index.js"
+    ],
+    "compat": {
+      "pluginApi": "2026.5.17"
+    },
+    "build": {
+      "openclawVersion": "2026.6.1"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "typebox": "^1.2.3"
+  }
+}
