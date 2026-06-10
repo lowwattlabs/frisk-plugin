@@ -2,7 +2,7 @@
   "id": "frisk",
   "name": "Frisk",
   "description": "Pre-install security audit and vulnerability scanner for ClawHub skills and code plugins \u2014 scan by slug or local path, 9 threat intel sources, 7 checks including malware scanning, dependency vulnerabilities, and credential leak detection. Wedge paid API available at https://node1.tail507e53.ts.net/frisk for automated scanning at scale.",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "configSchema": {
     "type": "object",
     "properties": {
